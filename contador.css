@@ -2,12 +2,14 @@ body {
     margin: 60px;
     background-image: url("1.jpg"); 
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     text-align: center;
 }
 
 .container{
-    max-width: 50%;
+    max-width: 70%;
+    height: 500px;
     background: white;
     margin: auto;
     border: 3px solid black;
@@ -15,8 +17,9 @@ body {
 }
 
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     color: black;
 }
@@ -24,18 +27,19 @@ h1 {
 h2 {
     font-size: 50px;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
     color:black;
 }
 
 button {
     border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
+   
+    font-size: 20px;
     color: white;
     font-weight: bold;
-    width: 200px;
+    width: 40vh;
+    height: 15vh;
     margin-bottom: 5px;
     border-radius: 5px;
     display: inline-block;
@@ -58,5 +62,10 @@ p {
     text-align:center;
     color:black;
     font-weight: bold;
+    
+}
+footer {
+    color:white;
     font-size: 25px;
+    margin-top: 15px;
 }
